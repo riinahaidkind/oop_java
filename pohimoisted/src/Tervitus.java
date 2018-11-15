@@ -1,13 +1,12 @@
 public class Tervitus {
-    public static String tervitusTekst;
+    public String tervitusTekst;
 
-    public static void tervita(){
-        System.out.println(tervitusTekst);
+    public Tervitus(String t) {
+        this.tervitusTekst = t;
     }
 
-    public static void main(String[] args) {
-        tervitusTekst = "Tere Anna!";
-        tervita ();
+    public void tervita(){
+        System.out.println(tervitusTekst);
     }
 
     }
