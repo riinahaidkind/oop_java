@@ -10,11 +10,15 @@ public class Kujundid {
         ring.nimetus = "Ruut";
         ring.valjastaKirjeldus();
          */
-        ring.setNimetus("Ruut");
-        ring.valjastaKirjeldus();
+        //      ring.setNimetus("Ruut");
+        //    ring.valjastaKirjeldus();
 
 
         //ruut.valjastaKirjeldus();
        // kolmnurk.valjastaKirjeldus();
-            }
+
+
+    Ristkulik ristkulik = new Ristkulik ("Ristkulik");
+    ristkulik.valjastaKirjeldus();
+    }
 }
