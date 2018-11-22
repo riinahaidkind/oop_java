@@ -12,6 +12,14 @@ public class Punkt {
         this.setVeerand();
     }
 
+    public Double getX() {
+        return x;
+    }
+
+    public Double getY() {
+        return y;
+    }
+
     public void setVeerand() {
         if(this.x > 0 & this.y > 0 ) this.veerand = 1;
         else if (this.x > 0 & this.y < 0 ) this.veerand = 2;
