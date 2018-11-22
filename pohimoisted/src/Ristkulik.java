@@ -9,9 +9,21 @@ public class Ristkulik extends Kujund {
         super(nimi);
         this.pikkus = p;
         this.laius = l;
-        this.
+        this.setNurkadeOlemasolu(true);
+        this.setNurkadeArv(4);
         this.nurk = 90;
         System.out.println("Ristkuliku klassi konstruktor");
+    }
+
+    @Override
+    public void valjastaKirjeldus() {
+        System.out.println("Ristküliku klassi valjastaKirjeldus()");
+        System.out.println(this.getNimetus());
+        System.out.println("Pikkus = " + this.pikkus);
+        System.out.println("Laius = " + this.laius);
+        if (this.getNurkadeOlemasolu())
+        System.out.println("Kokku on " + this.);
+        System.out.println("Nurgad on " + this.nurk + " kraadi.");
     }
 }
 
