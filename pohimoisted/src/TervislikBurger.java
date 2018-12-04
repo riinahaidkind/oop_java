@@ -1,4 +1,4 @@
-public class TervislikBurger {
+public class TervislikBurger extends Burger{
     private String tervislikLisand1;
     private Double tervislikLisand1Hind;
     private String tervislikLisand2;
@@ -9,5 +9,5 @@ public class TervislikBurger {
         this.tervislikLisand1Hind = tervislikLisand1Hind;
     }
 
-    
+
 }

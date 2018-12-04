@@ -1,0 +1,4 @@
+public class TestBurgerid {
+
+    koostaBurger
+}

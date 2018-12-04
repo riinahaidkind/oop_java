@@ -22,6 +22,28 @@ public class Kujund {
         this.nurkadeArv = nurkadeArv;
     }
 
+    public void setPindala(Double pindala) {
+        this.pindala = pindala;
+    }
+//getterid
+
+
+    public String getNimetus() {
+        return nimetus;
+    }
+
+    public Boolean getNurkadeOlemasolu() {
+        return nurkadeOlemasolu;
+    }
+
+    public Integer getNurkadeArv() {
+        return nurkadeArv;
+    }
+
+    public Double getPindala() {
+        return pindala;
+    }
+
     // tüüpi tegevused - klassi meetodid
     public void arvutaPindala() {
         System.out.println("Kujund klassi arvutaPindala() meetod");
@@ -32,5 +54,8 @@ public class Kujund {
         this.arvutaPindala();
         System.out.println();
     }
+
+
 }
+
 
