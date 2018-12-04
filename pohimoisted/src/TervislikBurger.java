@@ -4,6 +4,8 @@ public class TervislikBurger extends Burger{
     private String tervislikLisand2;
     private Double tervislikLisand2Hind;
 
+    //konstruktor
+
     public TervislikBurger(String tervislikLisand1, Double tervislikLisand1Hind) {
         this.tervislikLisand1 = tervislikLisand1;
         this.tervislikLisand1Hind = tervislikLisand1Hind;
