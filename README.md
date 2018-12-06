@@ -1,8 +1,16 @@
-# Objektorienteeritud programmeerimine ?V3
+# Objektorienteeritud programmeerimine ÕV3
 ## Teemad
-* Objekti t??p, objekti omadused ja meetodid
-* Tuubi konstruktor (ilma ja parameetri(te)ga)
+  * Objekti tüüp, objekti omadused ja meetodid
+  * Tüübi konstruktor (ilma ja parameetri[te]ga)
+  * Klassi kirjelduste laiendamine päriluse abil
+    extends võtmesõna kasutamine
+    super võtmesõna kasutamine
+  * Objekti loomine erinevatest komponentidest kompositsiooni abil
+  * Objekti turvamine kapselduse abil
+    public vs private
+    getterid ja setterid
+    @Override kasutamine
 ## Tarkvara
-* [git] (https://git-scm.com/download/win)- versioonihalduss?steemina (VCS)
-* [java] (https://www.oracle.com/technetwork/java/javase/downloads/index.html) - java kompilaator ja interpretaator
-* [IntelliJ] (https://www.jetbrains.com/idea/?fromMenu) - tekstiredaktor
+  * git - versioonihaldussüsteemina (VCS)
+  * java - java kompilaator ja interpretaator
+  * IntelliJ IDEA - tekstiredaktor
