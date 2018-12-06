@@ -11,75 +11,51 @@ public class Burger {
     private Double lisand3Hind;
     private String lisand4;
     private Double lisand4Hind;
-
-
-    // konstruktor
     public Burger(String nimetus, String liha, String sai, Double hind) {
         this.nimetus = nimetus;
         this.liha = liha;
         this.sai = sai;
         this.hind = hind;
     }
-    // getterid burgeri kokku ladumiseks
-    public String getNimetus() {
-        return nimetus;
+    public void valiLisand1(String lisand1, Double lisand1Hind){
+        this.lisand1 = lisand1;
+        this.lisand1Hind = lisand1Hind;
     }
-
-    public String getSai() {
-        return sai;
-    }
-
-    public String getLiha() {
-        return liha;
-    }
-
-    public String getLisand1(salat) {
-        return lisand1;
-    }
-
-    public String getLisand2(tomat) {
-        return lisand2;
-    }
-
-    public String getLisand3(muna) {
-        return lisand3;
-    }
-
-    public String getLisand4(juust) {
-        return lisand4;
-    }
-
-
-    // setter hinna arvutamiseks
-    public void setHind(Double hind) {
-        System.out.println(getClass().getSimpleName() + (getSai() + getLiha() + getLisand1()));
-        this.hind = hind;
-    }
-
-
-    // getter lisandi hinna arvutamiseks
-    public Double getLisand1Hind() {
-        System.out.println();
-        return lisand1Hind;
-    }
-
-
-    // klassi meetodid
-
-
-    public void setLisand2(String lisand2) {
+    public void valiLisand2(String lisand2, Double lisand2Hind){
         this.lisand2 = lisand2;
-    }
-
-    public Double getLisand2Hind() {
-        return lisand2Hind;
-    }
-
-    public void setLisand2Hind(Double lisand2Hind) {
         this.lisand2Hind = lisand2Hind;
     }
-
-    public void valilisand1 ()
-
+    public void valiLisand3(String lisand3, Double lisand3Hind){
+        this.lisand3 = lisand3;
+        this.lisand3Hind = lisand3Hind;
+    }
+    public void valiLisand4(String lisand4, Double lisand4Hind){
+        this.lisand4 = lisand4;
+        this.lisand4Hind = lisand4Hind;
+    }
+    public Double koostaBurger() {
+        Double hind = this.hind;
+        System.out.println("Burger " + this.nimetus);
+        System.out.println("Liha " + this.liha);
+        System.out.println("Sai " + this.sai);
+        System.out.println("Hind ilma lisandita " + this.hind);
+        System.out.println("------------------------");
+        if(this.lisand1 != null){
+            System.out.println("Lisatud " + this.lisand1 + " hinnaga " + this.lisand1Hind);
+            hind = hind + this.lisand1Hind;
+        }
+        if(this.lisand2 != null){
+            System.out.println("Lisatud " + this.lisand2  + " hinnaga " + this.lisand2Hind);
+            hind = hind + this.lisand2Hind;
+        }
+        if(this.lisand3 != null){
+            System.out.println("Lisatud " + this.lisand3  + " hinnaga " + this.lisand3Hind);
+            hind = hind + this.lisand3Hind;
+        }
+        if(this.lisand4 != null){
+            System.out.println("Lisatud " + this.lisand4  + " hinnaga " + this.lisand4Hind);
+            hind = hind + this.lisand4Hind;
+        }
+        return hind;
+    }
 }
-
